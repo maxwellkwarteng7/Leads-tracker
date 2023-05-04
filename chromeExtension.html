@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin:0 ;
+            padding: 10px; 
+            font-family: Arial, Helvetica, sans-serif;
+            min-width: 400px ;
+        }
+        button{
+            background-color:rgb(15, 133, 15);
+            color:white;
+            padding:5px;
+            margin-top:6px;
+            font-weight: bold;
+        }
+        input{
+            padding: 10px ;
+            width:100%; 
+            box-sizing : border-box ;
+            background-color: aliceblue;
+            border: 1px solid rgb(31, 156, 31)
+
+        }
+      ul{
+        list-style: none;
+        padding-left:0 ; 
+        margin-top:20px;
+      }
+      li{
+         margin-top:5px; 
+        
+      }
+      li a{
+        color:rgb(15, 133, 15);
+      }
+      #delete-all{
+        background-color: white;
+        color:rgb(15, 133, 15);
+       
+      }
+      
+        
+        
+    </style>
+</head>
+<body>
+    
+    <input type="text" id="input-el">
+    <br>
+    <button id="input-btn">SAVE INPUT</button>
+    <button id="savetab-btn">SAVE TAB</button>
+    <button id="delete-all">DELETE ALL</button>
+    <ul id="ul">
+    </ul>
+
+
+    <script src="chromeExtension.js"></script>
+
+</body>
+</html>
